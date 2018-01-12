@@ -1,2 +1,2 @@
 # island-immutable
-An utility of create the next immutable state
+> An utility of create the next immutable state with ES6 Proxy
