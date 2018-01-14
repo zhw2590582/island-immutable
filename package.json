@@ -33,7 +33,6 @@
     "babel-preset-env": "^1.6.1",
     "coveralls": "^3.0.0",
     "jest": "^22.0.5",
-    "jest-worker": "^22.0.3",
     "microbundle": "^0.3.0"
   }
 }
