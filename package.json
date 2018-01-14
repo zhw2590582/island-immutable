@@ -1,8 +1,8 @@
 {
-  "name": "island-immutable",
+  "name": "next-immutable",
   "version": "1.0.0",
   "description": "An utility of create the next immutable state with ES6 Proxy",
-  "main": "dist/island-immutable.js",
+  "main": "dist/next-immutable.js",
   "module": "src/index.js",
   "scripts": {
     "dev": "microbundle watch",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhw2590582/island-worker.git"
+    "url": "git+https://github.com/zhw2590582/next-immutable.git"
   },
   "keywords": [
     "immutable",
@@ -25,9 +25,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhw2590582/island-worker/issues"
+    "url": "https://github.com/zhw2590582/next-immutable/issues"
   },
-  "homepage": "https://github.com/zhw2590582/island-worker#readme",
+  "homepage": "https://github.com/zhw2590582/next-immutable#readme",
   "devDependencies": {
     "babel-jest": "^22.0.4",
     "babel-preset-env": "^1.6.1",
