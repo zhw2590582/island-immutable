@@ -1,0 +1,39 @@
+{
+  "name": "island-immutable",
+  "version": "1.0.0",
+  "description": "An utility of create the next immutable state with ES6 Proxy",
+  "main": "dist/island-immutable.js",
+  "module": "src/index.js",
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "microbundle",
+    "release": "npm publish",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhw2590582/island-worker.git"
+  },
+  "keywords": [
+    "immutable",
+    "proxy",
+    "state-tree"
+  ],
+  "authors": [
+    "Harvey Zack <laozhaochaguan@hotmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhw2590582/island-worker/issues"
+  },
+  "homepage": "https://github.com/zhw2590582/island-worker#readme",
+  "devDependencies": {
+    "babel-jest": "^22.0.4",
+    "babel-preset-env": "^1.6.1",
+    "coveralls": "^3.0.0",
+    "jest": "^22.0.5",
+    "jest-worker": "^22.0.3",
+    "microbundle": "^0.3.0"
+  }
+}
